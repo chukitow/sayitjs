@@ -1,0 +1,22 @@
+{
+  "name": "sayitjs",
+ "version": "0.1.0",
+  "homepage": "https://github.com/chukitow/sayitjs",
+  "authors": [
+    "Ivan Velasquez <ivan.velasquez.rios@gmail.com>"
+  ],
+  "description": "Use of SpeechRecognition API to navigate in sites",
+  "main": "./src/sayit.js",
+  "keywords": [
+    "SpeechRecognition",
+    "navigation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
