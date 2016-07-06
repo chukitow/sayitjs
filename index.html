@@ -3,16 +3,80 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>Sayit.js</title>
   </head>
   <body>
-    <a href="http://www.google.com.mx/" target="_blank">Google</a>
-    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-    <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+    <a href="https://github.com/chukitow/sayitjs"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>Sayit.js</h1>
+         <p>SpeechRecognition API that creates a better navigation</p>
+         <div>
+          <a class="github-button" href="https://github.com/chuktiow" data-style="mega" data-count-href="/chuktiow/followers" data-count-api="/users/chuktiow#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @chuktiow on GitHub">Follow @chuktiow</a>
+          <a class="github-button" href="https://github.com/chuktiow/sayit" data-icon="octicon-star" data-style="mega" data-count-href="/chuktiow/sayit/stargazers" data-count-api="/repos/chuktiow/sayit#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star chuktiow/sayit on GitHub">Star</a>
+         </div>
+      </div>
+    </div>
 
-    <button onclick="alert('Hello world from button one')">Button 1</button>
-    <button onclick="alert('Hello world from button about us')">About us</button>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <section>
+            <h2 class="text-center">Installation</h2>
+            <div class="well">
+              <h3>Bower</h3>
+              <code>
+                <p>bower install sayitjs</p>
+              </code>
 
+              Add a &lt;script&gt; to your index.html:
+              <p>
+                <code>
+                  &lt;script src="/bower_components/sayitjs/src/sayit.js"&gt;&lt;/script&gt;
+                </code>
+              </p>
+            </div>
+          </section>
+          <section>
+            <h2 class="text-center">Links</h2>
+            <div class="well">
+              <ul class="list">
+                <li>
+                  <a href="http://www.google.com.mx/" target="_blank">Google</a>
+                  Say "Go to google"
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                  Say "Go to facebook"
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                  Say "Go to facebook"
+                </li>
+              </ul>
+            </div>
+            </section>
+
+            <section>
+              <h2 class="text-center">Buttons</h2>
+              <div class="well">
+                <div class="row">
+                  <div class="col-md-6">
+                    <button class="btn btn-primary btn-lg center-block" onclick="alert('You clicked Home')">Home</button>
+                    <p class="text-center">Say "Click Home"</p>
+                  </div>
+                  <div class="col-md-6">
+                    <button class="btn btn-primary btn-lg center-block" onclick="alert('You clicked About us')">About us</button>
+                    <p class="text-center">Say "Click About us"</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+        </div>
+      </div>
+    </div>
     <script type="text/javascript" charset="utf-8" src="./src/sayit.js"></script>
   </body>
 </html>
